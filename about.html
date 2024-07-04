@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFord</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <section class="sheader">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="#"></a>
+            <div class="navlink" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+    </section>
+
+    <!-- ------about Us content----- -->
+
+    <section class="abs">
+        <div class="row">
+            <div class="abc">
+                <h1>We Are The World Largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione perferendis aliquid quisquam, deleniti voluptatem reprehenderit possimus qui repellat at nostrum voluptatum eaque, temporibus totam? Ea temporibus architecto tempora facilis natus?</p>
+                <a href="#" class="btn rbtn">Explore Now</a>
+            </div>
+            <div class="abc">
+                <img src="/images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex deserunt ea beatae nulla accusamus ipsum delectus <br>aut non, deleniti numquam incidunt animi aliquam officia! Fugiat quod voluptate impedit dolor accusamus.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p class="foot">&copy; Taher Bootwala</p>
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu()
+        {
+            navlinks.style.right = '0';
+        }
+        function hidemenu()
+        {
+            navlinks.style.right = '-200px';
+        }
+    </script>
+</body>
+</html>
